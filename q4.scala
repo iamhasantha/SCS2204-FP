@@ -1,5 +1,5 @@
 import scala.compiletime.ops.float
-object q4 {
+object q4_a {
     def wage(hours:Int):Int = hours*250
     def ot(hours:Int):Int = hours*85
     def income(h1:Int, h2:Int):Int=wage(h1)+ot(h2)
